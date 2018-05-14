@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.7725752508361204" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondController">
+  <items>
+    <AnchorPane fx:id="leftAnchor" maxHeight="-Infinity" maxWidth="-Infinity" pickOnBounds="false" prefHeight="750.0" prefWidth="750.0">
+         <children>
+            <ImageView fitHeight="750.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@pictures/board.jpg" />
+               </image>
+            </ImageView>
+            <Circle fill="#1c88ee" layoutX="166.0" layoutY="169.0" radius="38.0" stroke="#ff0e0e" strokeType="INSIDE" />
+         </children></AnchorPane>
+    <AnchorPane maxHeight="750.0" maxWidth="250.0" snapToPixel="false" style="-fx-background-color: #654321; -fx-border-color: #261b0e;">
+         <children>
+            <Button fx:id="endButton" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="329.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="91.0" prefWidth="170.0" text="Закончить ход" textAlignment="CENTER" textFill="#b50808">
+               <font>
+                  <Font name="DFKai-SB" size="18.0" />
+               </font></Button>
+            <Text fx:id="firstPlayerNumber" fill="RED" layoutX="84.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.bottomAnchor="150.0">
+               <font>
+                  <Font name="Dubai Regular" size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="secondPlayerNumber" fill="RED" layoutX="84.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.topAnchor="150.0">
+               <font>
+                  <Font name="Dubai Regular" size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="firstPlayerName" fill="#ffb547" layoutX="22.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="200.0" AnchorPane.bottomAnchor="78.0">
+               <font>
+                  <Font name="DFKai-SB" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="secondPlayerName" fill="#ffb547" layoutX="25.0" layoutY="98.21875" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="200.0" AnchorPane.topAnchor="78.0">
+               <font>
+                  <Font name="DFKai-SB" size="24.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

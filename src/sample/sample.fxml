@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane cache="true" cacheHint="QUALITY" pickOnBounds="false" prefHeight="750.0" prefWidth="1000.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <ImageView disable="true" fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@pictures/shashki.jpg" />
+         </image>
+      </ImageView>
+        <TextField fx:id="textField1" alignment="CENTER" cache="true" focusTraversable="false" layoutX="425.0" layoutY="335.0" pickOnBounds="false" snapToPixel="false">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+        <TextField fx:id="textField2" alignment="CENTER" cache="true" focusTraversable="false" layoutX="425.0" layoutY="387.0" pickOnBounds="false" snapToPixel="false">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+        <Text fill="#ffb855" fontSmoothingType="LCD" layoutX="328.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Игрок 1">
+            <font>
+                <Font name="DFKai-SB" size="21.0" />
+            </font>
+        </Text>
+        <Text fill="#ffb855" fontSmoothingType="LCD" layoutX="328.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Игрок 2">
+            <font>
+                <Font name="DFKai-SB" size="21.0" />
+            </font>
+        </Text>
+        <Button fx:id="buttonPlay" layoutX="464.0" layoutY="445.0" mnemonicParsing="false" onAction="#initialize" text="Играть" underline="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+      <Text fx:id="awareText" fill="#fc0505" layoutX="416.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите имена" textAlignment="CENTER" visible="false" wrappingWidth="177.28125">
+         <font>
+            <Font name="DFKai-SB" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#f55f08" layoutX="353.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ШАШКИ" textAlignment="CENTER" wrappingWidth="305.0">
+         <font>
+            <Font name="Century" size="64.0" />
+         </font>
+      </Text>
+    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>
