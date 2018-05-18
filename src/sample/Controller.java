@@ -25,14 +25,15 @@ public class Controller {
     @FXML
     private TextField textField2;
 
-    public String getTextField2() {
+
+    private String getTextField2() {
         return textField2.getText();
     }
 
     @FXML
     private TextField textField1;
 
-    public String getTextField1() {
+    private String getTextField1() {
         return textField1.getText();
     }
 
@@ -60,8 +61,10 @@ public class Controller {
                 Stage stage = new Stage();
                 stage.setTitle("Checkers");
                 stage.setScene(new Scene(root));
+                stage.setResizable(false);
                 stage.show();
             } else awareText.setVisible(true);
+
         });
 
     }

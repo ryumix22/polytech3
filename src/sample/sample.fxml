@@ -11,7 +11,7 @@
     <children>
       <ImageView disable="true" fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true">
          <image>
-            <Image url="@pictures/shashki.jpg" />
+            <Image url="@../pictures/shashki.jpg" />
          </image>
       </ImageView>
         <TextField fx:id="textField1" alignment="CENTER" cache="true" focusTraversable="false" layoutX="425.0" layoutY="335.0" pickOnBounds="false" snapToPixel="false">

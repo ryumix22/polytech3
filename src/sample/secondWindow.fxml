@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
@@ -9,39 +10,73 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<SplitPane dividerPositions="0.7725752508361204" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondController">
+<SplitPane dividerPositions="0.7725752508361204" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondController">
   <items>
-    <AnchorPane fx:id="leftAnchor" maxHeight="-Infinity" maxWidth="-Infinity" pickOnBounds="false" prefHeight="750.0" prefWidth="750.0">
+    <AnchorPane fx:id="leftAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="800.0" prefWidth="800.0">
          <children>
-            <ImageView fitHeight="750.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
-               <image>
-                  <Image url="@pictures/board.jpg" />
-               </image>
-            </ImageView>
-            <Circle fill="#1c88ee" layoutX="166.0" layoutY="169.0" radius="38.0" stroke="#ff0e0e" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="200.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="400.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutY="200.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutY="400.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="200.0" layoutY="400.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="700.0" layoutY="300.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="600.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="600.0" layoutY="200.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="700.0" layoutY="100.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="200.0" layoutY="200.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="500.0" layoutY="100.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="300.0" layoutY="100.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="300.0" layoutY="300.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="100.0" layoutY="300.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="400.0" layoutY="200.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="500.0" layoutY="300.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="100.0" layoutY="100.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="400.0" layoutY="400.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="600.0" layoutY="400.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="100.0" layoutY="500.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="300.0" layoutY="500.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="500.0" layoutY="500.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="700.0" layoutY="500.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutY="600.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="200.0" layoutY="600.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="400.0" layoutY="600.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="600.0" layoutY="600.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="100.0" layoutY="700.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="300.0" layoutY="700.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" disable="true" height="100.0" layoutX="500.0" layoutY="700.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="700.0" layoutY="700.0" stroke="BLACK" strokeLineCap="BUTT" strokeType="INSIDE" width="100.0" />
+            <Group fx:id="blackCheckers" layoutX="50.0" layoutY="50.0" />
+            <Group fx:id="whiteCheckers" layoutX="50.0" layoutY="50.0" />
          </children></AnchorPane>
-    <AnchorPane maxHeight="750.0" maxWidth="250.0" snapToPixel="false" style="-fx-background-color: #654321; -fx-border-color: #261b0e;">
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="195.0" snapToPixel="false" style="-fx-background-color: #654321; -fx-border-color: #261b0e;">
          <children>
-            <Button fx:id="endButton" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="329.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="91.0" prefWidth="170.0" text="Закончить ход" textAlignment="CENTER" textFill="#b50808">
+            <Button fx:id="startButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="355.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="90.0" prefWidth="150.0" text="Начать игру" textAlignment="CENTER" textFill="#b50808">
                <font>
                   <Font name="DFKai-SB" size="18.0" />
-               </font></Button>
-            <Text fx:id="firstPlayerNumber" fill="RED" layoutX="84.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.bottomAnchor="150.0">
+               </font>
+            </Button>
+            <Button fx:id="endButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="355.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="90.0" prefWidth="150.0" text="Закончить ход" textAlignment="CENTER" textFill="#b50808" visible="false">
+               <font>
+                  <Font name="DFKai-SB" size="18.0" />
+               </font>
+            </Button>
+            <Text fx:id="firstPlayerNumber" fill="RED" layoutX="63.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.bottomAnchor="150.0">
                <font>
                   <Font name="Dubai Regular" size="36.0" />
                </font>
             </Text>
-            <Text fx:id="secondPlayerNumber" fill="RED" layoutX="84.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.topAnchor="150.0">
+            <Text fx:id="secondPlayerNumber" fill="RED" layoutX="63.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="75.0" AnchorPane.topAnchor="150.0">
                <font>
                   <Font name="Dubai Regular" size="36.0" />
                </font>
             </Text>
-            <Text fx:id="firstPlayerName" fill="#ffb547" layoutX="22.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="200.0" AnchorPane.bottomAnchor="78.0">
+            <Text fx:id="firstPlayerName" fill="#ffb547" layoutX="17.0" layoutY="715.0" strokeType="OUTSIDE" strokeWidth="0.0" text="фвыфвы" textAlignment="CENTER" wrappingWidth="166.0" AnchorPane.bottomAnchor="80.0">
                <font>
                   <Font name="DFKai-SB" size="24.0" />
                </font>
             </Text>
-            <Text fx:id="secondPlayerName" fill="#ffb547" layoutX="25.0" layoutY="98.21875" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="200.0" AnchorPane.topAnchor="78.0">
+            <Text fx:id="secondPlayerName" fill="#ffb547" layoutX="26.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="фвы" textAlignment="CENTER" wrappingWidth="150.0" AnchorPane.topAnchor="80.0">
                <font>
                   <Font name="DFKai-SB" size="24.0" />
                </font>
